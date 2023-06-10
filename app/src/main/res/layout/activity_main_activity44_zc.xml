@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bb"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/black_exit"
+            android:id="@+id/fanhui"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:text="注册"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="500dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="450dp"
+        android:layout_height="80dp"
+        android:background="@drawable/bb"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="430dp"
+        android:id="@+id/number"
+        android:inputType="text"
+        android:hint="请输入用户名"
+        android:textColor="@color/black"
+        android:textSize="40dp"/>
+    <EditText
+        android:layout_width="450dp"
+        android:layout_height="80dp"
+        android:background="@drawable/bb"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="430dp"
+        android:inputType="number"
+        android:id="@+id/youxiang"
+        android:hint="请输入邮箱"
+        android:textColor="@color/black"
+        android:textSize="40dp"/>
+    <EditText
+        android:layout_width="450dp"
+        android:layout_height="80dp"
+        android:background="@drawable/bb"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="430dp"
+        android:id="@+id/mima1"
+        android:inputType="number"
+        android:hint="请输入密码"
+        android:textColor="@color/black"
+        android:textSize="40dp"/>
+    <EditText
+        android:layout_width="450dp"
+        android:layout_height="80dp"
+        android:background="@drawable/bb"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="430dp"
+        android:id="@+id/mima2"
+        android:inputType="number"
+        android:hint="请确认密码"
+        android:textColor="@color/black"
+        android:textSize="40dp"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="550dp"
+        android:id="@+id/tj"/>
+
+</LinearLayout>

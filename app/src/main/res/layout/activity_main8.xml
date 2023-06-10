@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/lan"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/caidan"
+            android:id="@+id/caidan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出行管理"
+            android:textColor="@color/white"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="400dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:text="2012年12月12日"
+            android:id="@+id/time"/>
+
+        <TextView
+            android:id="@+id/car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:text="单号出行车辆：1,3"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:textColor="@color/black"
+                android:text="出行车辆设置：" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="小车编号：1号" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="开"
+                    android:textColor="@color/black"
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tv1"/>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:switchMinWidth="20dp"
+                    android:thumb="@drawable/thumb"
+                    android:track="@drawable/track"
+                    android:id="@+id/sw1"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="小车编号：1号" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="开"
+                    android:textColor="@color/black"
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tv2"/>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:checked="true"
+                    android:switchMinWidth="20dp"
+                    android:thumb="@drawable/thumb"
+                    android:track="@drawable/track"
+                    android:id="@+id/sw2"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="小车编号：1号" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="开"
+                    android:textColor="@color/black"
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tv3"/>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:checked="true"
+                    android:switchMinWidth="20dp"
+                    android:thumb="@drawable/thumb"
+                    android:track="@drawable/track"
+                    android:id="@+id/sw3"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/hong"
+                android:id="@+id/traffic_signal"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

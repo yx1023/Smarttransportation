@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            style="@style/text_40_b"
+            android:text="光顾金融界————如初文件"
+            android:id="@+id/xianlu"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            style="@style/text_40_b"
+            android:text="光顾金融界————如初文件"
+            android:id="@+id/piaojia"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/text_40_b"
+        android:layout_marginLeft="100dp"
+        android:text="订单编号：O1"
+        android:layout_gravity="center"
+        android:id="@+id/dd_number"/>
+    
+    <ImageView
+        android:layout_marginLeft="150dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/xiajiantou"
+        android:layout_gravity="center"
+        android:id="@+id/iv"/>
+
+</LinearLayout>

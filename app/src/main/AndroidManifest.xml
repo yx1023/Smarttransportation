@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartTransportation"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".Activity.MainActivity45"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity44"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity44_zh"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity44_zc"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity43"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity42"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity42_2"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity41"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity40"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity39"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity38"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.WDDD"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity38_5"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity38_4"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity38_3"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity38_2"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity37"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity37_2"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity36"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity35"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.XXXX"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity34"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ETC_JL"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ETC_YE"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ETC_CZ"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity33"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity32"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity31"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.WDYJ"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity30"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity29"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity28"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity27"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity26"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity25"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity24"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity23"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity22"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity21"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity20"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity19"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity18"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity17"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity16"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity15"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity14"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity13"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity12"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.JKZP_2"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.JKZP_1"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CXJG_12"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity11"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Photo"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Vidio"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity46"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

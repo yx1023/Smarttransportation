@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#3E51B5"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/change"
+            android:id="@+id/caidan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生活助手"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="450dp"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EAEAEA"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_wd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="19°"
+                        android:textSize="150dp"
+                        android:layout_gravity="center"
+                        android:textColor="#3F51B5"/>
+                    <TextView
+                        android:id="@+id/fanwei"
+                        android:layout_width="330dp"
+                        android:layout_height="wrap_content"
+                        android:text="今天：12-24℃"
+                        android:textSize="50dp"
+                        android:textColor="#3F51B5"/>
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/shuaxin"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/finsh1"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="10dp"/>
+                <com.github.mikephil.charting.charts.LineChart
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/ZST"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="今日生活指数"
+                android:textSize="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#03A9F4"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/grey"
+                android:layout_marginTop="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="#DAEDFE"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/zhiwaixianzhishu"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/ZWX_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="中等  "
+                                android:textSize="20dp"
+                                android:textColor="#03A9F4"/>
+                            <TextView
+                                android:id="@+id/ZWX_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="(100)"
+                                android:textSize="20dp"
+                                android:textColor="#03A9F4"/>
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/ZWX_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:text="涂擦SPF大于15、PA+防晒护肤品"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="#DAEDFE"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ganmaozhisu"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/GMZS_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="中等  "
+                                android:textSize="20dp"
+                                android:textColor="#03A9F4"/>
+                            <TextView
+                                android:id="@+id/GMZS_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="(100)"
+                                android:textSize="20dp"
+                                android:textColor="#03A9F4"/>
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/GMZS_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:text="涂擦SPF大于15、PA+防晒护肤品"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="#DAEDFE"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/chuanyizhisu"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/CYZS_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="中等  "
+                                android:textSize="20dp"
+                                android:textColor="#03A9F4"/>
+                            <TextView
+                                android:id="@+id/CYZS_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="(100)"
+                                android:textSize="20dp"
+                                android:textColor="#03A9F4"/>
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/CYZS_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:text="涂擦SPF大于15、PA+防晒护肤品"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:background="#DAEDFE"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/yundongzhisu"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/YDZS_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="中等  "
+                                android:textSize="20dp"
+                                android:textColor="#03A9F4"/>
+                            <TextView
+                                android:id="@+id/YDZS_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="(100)"
+                                android:textSize="20dp"
+                                android:textColor="#03A9F4"/>
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/YDZS_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:text="涂擦SPF大于15、PA+防晒护肤品"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:background="#DAEDFE"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/kongqiwurankuoanzhisu"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/KQWRZS_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="中等  "
+                                android:textSize="20dp"
+                                android:textColor="#03A9F4"/>
+                            <TextView
+                                android:id="@+id/KQWRZS_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="(100)"
+                                android:textSize="20dp"
+                                android:textColor="#03A9F4"/>
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/KQWRZS_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:text="涂擦SPF大于15、PA+防晒护肤品"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="整点天气实况"
+                android:textSize="50dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#03A9F4"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/grey"
+                android:layout_marginTop="20dp"/>
+
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/VP"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_kqzl"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="空气质量"
+                    android:gravity="center"
+                    android:textSize="30dp" />
+                <TextView
+                    android:id="@+id/tv_wd_"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="温度"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp" />
+                <TextView
+                    android:id="@+id/tv_sd"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="相对湿度"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp" />
+                <TextView
+                    android:id="@+id/tv_co2"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="二氧化碳"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

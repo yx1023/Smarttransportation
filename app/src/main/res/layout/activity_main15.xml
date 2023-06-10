@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#3E51B5"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/change"
+            android:id="@+id/caidan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数据分析"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="450dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:text="平台上违章车辆和没违章车辆的占比统计"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/text"/>
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/VP"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ag1"
+            android:id="@+id/yuan1"/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ag2"
+            android:id="@+id/yuan2"/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ag1"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/yuan3"/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ag1"
+            android:id="@+id/yuan4"/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ag1"
+            android:id="@+id/yuan5"/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ag1"
+            android:id="@+id/yuan6"/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ag1"
+            android:id="@+id/yuan7"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>

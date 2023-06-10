@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0098cb"
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/mune17"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/caidan"></ImageView>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:textStyle="bold"
+                android:text="我的消息"
+                android:textColor="@color/white"
+                android:textSize="60dp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+   <androidx.viewpager.widget.ViewPager
+       android:layout_width="match_parent"
+       android:layout_height="600dp"
+       android:id="@+id/vp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/cx"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="40dp"
+            android:text="消息查询"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/bg2"/>
+        <TextView
+            android:id="@+id/fx"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="40dp"
+            android:text="消息分析"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@drawable/bg"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

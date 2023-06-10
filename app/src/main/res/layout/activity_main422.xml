@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0098cb"
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/mune36"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/youjiantoulan"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="停车场"
+                android:textColor="@color/white"
+                android:textSize="60dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-10dp"
+            android:layout_weight="1.5">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/tcc"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="50dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_45_b"
+                android:text="XXX停车场"
+                android:id="@+id/name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_45_b"
+                android:text="收费标准：5元/小时"
+                android:layout_marginTop="100dp"
+                android:id="@+id/money"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_45_b"
+                android:text="剩余车位：4/10"
+                android:layout_marginTop="100dp"
+                android:id="@+id/cw"/>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:background="@drawable/ag"
+                android:text="刷新"
+                android:textSize="40dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/BT"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

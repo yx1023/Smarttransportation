@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/WDZH" android:title="我的账户"></item>
+    <item android:id="@+id/RGY" android:title="红绿灯管理"></item>
+    <item android:id="@+id/ZDGL" android:title="账单管理"></item>
+    <item android:id="@+id/CLWZ" android:title="车辆违章"></item>
+    <item android:id="@+id/HJZB" android:title="环境指标"></item>
+    <item android:id="@+id/SSXS" android:title="实时显示"></item>
+    <item android:id="@+id/YZSZ" android:title="阈值设置"></item>
+    <item android:id="@+id/CXGL" android:title="出行管理"></item>
+    <item android:id="@+id/ZHCZ" android:title="账户充值"></item>
+    <item android:id="@+id/GJCX" android:title="公交查询"></item>
+    <item android:id="@+id/RGYgly" android:title="红绿灯管理(管理员)"></item>
+    <item android:id="@+id/CLWZCX" android:title="车辆违章查询"></item>
+    <item android:id="@+id/LKCX" android:title="路况查询"></item>
+    <item android:id="@+id/GRZX" android:title="个人中心"></item>
+    <item android:id="@+id/SHZS" android:title="生活助手"></item>
+</menu>

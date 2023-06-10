@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#3E51B5"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/change"
+            android:id="@+id/caidan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="监控抓拍"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="450dp"/>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:id="@+id/iv"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/butten_hui"
+        android:text="返回"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/fh"/>
+
+
+</LinearLayout>

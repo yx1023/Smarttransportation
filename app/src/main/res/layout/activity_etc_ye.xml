@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/lan"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/youjiantoulan"
+            android:id="@+id/fanhui"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ETC余额"
+            android:textColor="@color/white"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="400dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="150dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车辆编号："
+            android:textSize="40dp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:textColor="@color/black"
+            android:hint="1"
+            android:inputType="number"
+            android:textColorHint="@color/grey"
+            android:textSize="40dp"
+            android:background="@drawable/bg"
+            android:id="@+id/et_plate"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="150dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="余        额："
+            android:textSize="40dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:id="@+id/tv"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:textSize="30dp"
+        android:text="查     询"
+        android:background="@drawable/butten_hui"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:id="@+id/CX"/>
+
+</LinearLayout>

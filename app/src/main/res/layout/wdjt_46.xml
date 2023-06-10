@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:text="PM2.5当前值：520"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/PM"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="友情提示：不适合出行"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:id="@+id/tishi1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="170dp"/>
+
+        <VideoView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/VV"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="光照强度当前值：1212"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:id="@+id/guangzhao"
+
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="光照阈值上限值：3190"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:id="@+id/max" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="光照阈值下限值：1110"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:id="@+id/min" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="友情提示：不适合出行"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:id="@+id/tishi2"
+            android:layout_marginTop="50dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:text="0"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:layout_marginLeft="70dp"
+                android:text="1100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:layout_marginLeft="200dp"
+                android:text="3190"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:background="#FF0000"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/t1"/>
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:background="#00FD0A"
+                android:id="@+id/t2"/>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:background="#FF0000"
+                android:id="@+id/t3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="440dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="#3F51B5"
+                android:id="@+id/t4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/t5"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:text="0"/>
+            <TextView
+                android:id="@+id/ss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:text="1100"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

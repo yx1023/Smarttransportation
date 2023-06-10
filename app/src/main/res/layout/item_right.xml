@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017-04-02 14:55:23"
+            android:textSize="28dp"
+            android:id="@+id/time"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未处理"
+            android:layout_marginLeft="150dp"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="学院路"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/road"/>
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:text="不按规定停车或车辆发生故障不立即将车移开，造成交通严重堵塞 。"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:id="@+id/message"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="扣 2 分               罚款 250 元"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/kf"/>
+
+
+
+</LinearLayout>

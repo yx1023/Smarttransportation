@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/lan"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/youjiantoulan"
+            android:id="@+id/fanhui"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="充值记录"
+            android:textColor="@color/white"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="420dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="充值合计："
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:id="@+id/text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg"
+            android:text="车辆编号"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg"
+            android:text="车牌号"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg"
+            android:layout_weight="1"
+            android:text="充值金额"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg"
+            android:layout_weight="1"
+            android:text="充值时间"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:text="暂无历史记录"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/ttt"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:divider="@null"
+        android:id="@+id/lv"/>
+
+</LinearLayout>

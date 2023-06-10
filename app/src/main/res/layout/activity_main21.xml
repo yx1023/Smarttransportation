@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0098cb"
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/mune17"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/caidan"></ImageView>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:textStyle="bold"
+                android:text="红绿灯管理"
+                android:textColor="@color/white"
+                android:textSize="60dp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="红绿灯信息管理"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:src="@drawable/hong1"
+            android:layout_marginLeft="650dp"
+            android:id="@+id/light"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="排序："
+            android:textSize="50dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold"/>
+        
+        <Spinner
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/bg"
+            android:textSize="40dp"
+            android:text="路口"/>
+        <TextView
+            android:layout_width="0dp"
+            android:background="@drawable/bg"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:text="红灯时长(S)"/>
+        <TextView
+            android:layout_width="0dp"
+            android:background="@drawable/bg"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:text="黄灯时长(S)"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/bg"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:text="绿灯时长(S)"/>
+
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="150dp"
+        android:background="@null"
+        android:id="@+id/lv"/>
+
+
+</LinearLayout>

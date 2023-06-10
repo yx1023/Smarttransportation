@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="北京地铁1号线(M1)路线图"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_1"/>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:src="@drawable/youjiantou"
+        android:id="@+id/jiantou"
+        android:layout_marginLeft="500dp"/>
+
+
+
+</LinearLayout>
